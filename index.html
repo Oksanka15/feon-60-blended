@@ -1,34 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Document</title>
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!--style modern-normalize-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+  <!--Header-->
+  <header class="header">
+    <div class="container header-container">
       <nav class="nav">
-        <a class="logo" href="./index.html"><span>Brit</span>lex</a>
+        <a class="logo" href="./index.html"><span class="logotype">Brit</span>lex</a>
         <ul class="nav-list">
-          <li class="nav-item">
-            <a class="nav-link" href="">Home</a>
+          <li class="nav-item ">
+            <a class="nav-link link" href="">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Skills</a>
+          <li class="nav-item ">
+            <a class="nav-link link" href="">Skills</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">About Us</a>
+          <li class="nav-item ">
+            <a class="nav-link link" href="">About Us</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Pricing</a>
+          <li class="nav-item ">
+            <a class="nav-link link" href="">Pricing</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="">Contacts</a>
+          <li class="nav-item ">
+            <a class="nav-link link" href="">Contacts</a>
           </li>
         </ul>
       </nav>
       <button class="header-button" type="button">Let&#39;s Talk</button>
-    </header>
-  </body>
+    </div>
+  </header>
+  <main>
+    <!--HERO-->
+    <section class="sektion">
+      <div class="container contaner-hero">
+        <div class="hero-left">
+          <h1 class="title">Learn
+            Any&nbsp;Foreign
+            Language</h1>
+          <p class="title-text">With our teachers who write a program for
+            each student, you will be able to make your
+            first sketch after the first lesson.</p>
+          <button class="hero-button" type="button">Get started</button>
+
+          <!--    <img class="image-bulb" src="./images/bulb_icon.png" alt="bulb_icon" width="85" height="85">-->
+        </div>
+        <div class="img-ridth"><img src="./images/learning_languages.png" alt="learning_languages" width="654"
+            height="510"></div>
+      </div>
+    </section>
+    <!--Skills-cards-->
+    <section class="Skills">
+      <h2 class="skills">Skills</h2>
+
+      <ul class="skills-card">
+        <div class="first-card">
+          <li>
+            <img src="./images/speaking_1.png" alt="speaking_1" width="390" height="390">
+            <h3 class="skills-list">Speaking</h3>
+            <p>Improve your English skills and confidence.
+              Live classes and interactive lessons online.
+              20% extra free for a limited time only</p>
+            <p>Learn English online and improve your
+              skills through our high-quality courses
+              and resources – all designed for adult language learners.</p>
+            <button class="button-skills" type="button">Learn more</button>
+          </li>
+        </div>
+        <div class="sekond-card">
+          <li>
+            <img src="./images/Typewriter_2.png" alt="Typewriter" width="390" height="265">
+            <h3 class="skills-list">Writing</h3>
+            <p>One of the most important and extensive
+              areas of natural science, the science that
+              studies substances, also their composition</p>
+            <button class="button-skills" type="button">Learn more</button>
+          </li>
+        </div>
+        <div class="third-card">
+          <li><img src="./images/readind_3.png" alt="readind" width="390" height="265">
+            <h3 class="skills-list">Reading</h3>
+            <p>Perception and response actions of the user
+              resulting from the use and/or upcoming use
+              of the product, system or service</p>
+            <button class="button-skills" type="button">Learn more</button>
+          </li>
+        </div>
+        <div class="forth-card">
+          <div class="part-left">
+          <li><img src="./images/Podcast_audience-bro4.png" alt="audience" width="410" height="275">
+          </div>
+          <div class="part-right">  <h3 class="skills-list">Listening</h3>
+            <p>Here you can find activities to practise
+              your listening skills. Listening will help you to improve your understanding</p>
+            <button class="button-skills" type="button">Learn more</button>
+          </li></div>
+        </div>
+      </ul>
+    </section>
+    <!--About us-->
+    <section>
+      <h2 class="about">About Us</h2>
+      <p class="about-text">The model offers a framework for discussing problems related to the user's experience, as
+        well as possible ways
+        and means of solving them. Application development begins at the top level (strategy), where the future software
+        product is described quite abstractly from the point of view of the expectations of both users and the customer.
+      </p>
+      <h3 class="about-title">800</h3>
+      <p class="about-pupils">Pupils</p>
+      <h3 class="about-title">18</h3>
+      <p class="about-pupils">Teachers</p>
+      <h3 class="about-title">6</h3>
+      <p class="about-pupils">Foreign
+        languages</p>
+      <img src="./images/Business_competition.png" alt="Business_competition" width="540" height="540">
+    </section>
+    <!--Pricing-->
+    <section class="pricing">
+      <h2 class="pricing-text">Pricing</h2>
+      <ul>
+        <li>
+          <img src="./images/online.png" alt="online" width="425" height="320">
+          <h3>Self-study online course</h3>
+          <p>Start learning English online in live classes
+            with qualified EC teachers and students
+            from all over the world.</p>
+          <button type="button"><span>£5.99</span> per month</button>
+        </li>
+        <li>
+          <h3>Live online classes</h3>
+          <img src="./images/lesson.png" alt="lesson" width="425" height="320">
+          <p>Interactive group classes with expert
+            teachers. Free 7-day trial</p>
+          <button type="button"><span>£12.99</span> per month</button>
+        </li>
+        <li>
+          <h3>Personal Tuition</h3>
+          <img src="./images/webinar.png" alt="" width="425" height="320">
+          <p>Online one-to-one English tutoring – enjoy
+            our first session for only $1</p>
+          <button type="button"><span>£12.99</span> per month</button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <img src="./images/contact.png" alt="contact" width="425" height="430">
+      <h2 class="contact">Contact Us</h2>
+      <p>Discover your current English level by taking our free online English test. Sign up to our newsletter for
+        learning tips and free resources</p>
+      <input>Enter Your E-mail
+      <button type="submit">Subscribe</button>
+    </section>
+  </main>
+  <footer>
+    <a class="logo" href="./index.html"><span>Brit</span>lex</a>
+    <a href="">Terms and Conditions</a>
+    <a href="">Privacy Policy</a>
+    <a href="">Cookie Policy</a>
+  </footer>
+</body>
+
 </html>
